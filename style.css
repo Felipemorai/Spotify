@@ -18,8 +18,22 @@ body {
 #navbar .navbar-container {
     width: 60%;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
 }
 #navbar .navbar-container .logo {
     height: 40px;
     width: auto;
+}
+#navbar .navbar-container ul {
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+}
+#navbar .navbar-container ul li {
+    padding: 0 22px;
+}
+#navbar .navbar-container ul li:nth-child(3) {
+    border-right: 1px solid white;
 }
