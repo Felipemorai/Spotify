@@ -20,6 +20,11 @@ body {
     font-weight: bold;
 }
 
+.logo {
+    height: 40px;
+    width: auto;
+}
+
 /* Navbar */
 #navbar {
     display: flex;
