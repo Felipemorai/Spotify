@@ -121,8 +121,26 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    width: 60%;
+    margin: auto;
 }
 .footer-info .footer-info-items {
     display: flex;
     list-style: none;
+}
+.footer-info .footer-info-items .footer-info-item {
+    margin: 0 10px;
+    font-weight: bold;
+    color: #919496;
+}
+.footer-info .rights {
+    
+}
+.footer-info .rights .country {
+    display: flex;
+}
+.footer-info .rights .country .brazil-flag {
+    height: 20px;
+    width: auto;
+    display: inline-block;
 }
