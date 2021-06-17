@@ -18,8 +18,12 @@ body {
     border-radius: 30px;
     letter-spacing: 1px;
     font-weight: bold;
+    transition: all 500ms ease;
 }
-
+.btn-primary:hover {
+    background: #1ed760;
+    cursor: pointer;
+}
 .logo {
     height: 40px;
     width: auto;
@@ -106,6 +110,11 @@ body {
 }
 #footer .footer-content .footer-menu .footer-menu-item {
     margin: 25px 0;
+    transition: all 500ms ease;
+}
+#footer .footer-content .footer-menu .footer-menu-item:hover {
+    color: #1db954;
+    cursor: pointer;
 }
 #footer .footer-content .footer-menu p {
     font-weight: bold;
@@ -121,6 +130,11 @@ body {
 .socials i {
     margin: 0 20px;
     font-size: 1.7rem;
+    transition: all 50ms ease;
+}
+.socials i:hover {
+    color: #1db954;
+    cursor: pointer;
 }
 
 /* Footer Info */
@@ -141,13 +155,22 @@ body {
 }
 .footer-info .footer-info-items .footer-info-item {
     margin: 0 10px;
-    
+    transition: all 500ms ease;
+}
+.footer-info .footer-info-items .footer-info-item:hover {
+    color: #1db954;
+    cursor: pointer;
 }
 .footer-info .rights .country {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     margin-bottom: 10px;
+    transition: all 500ms ease;
+}
+.footer-info .rights .country p:hover {
+    color: #1db954;
+    cursor: pointer;
 }
 .footer-info .rights .country .brazil-flag {
     height: 20px;
